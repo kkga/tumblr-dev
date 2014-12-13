@@ -1,0 +1,22 @@
+{
+  "name": "tumblr-dev",
+  "version": "0.1.0",
+  "description": "simple starter kit for tumblr theme development",
+  "style": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kkga/tumblr-dev.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-ruby-sass": "^0.7.1"
+  },
+  "author": {
+    "name": "@kkga_",
+    "email": "kkga@me.com",
+    "url": "http://kkga.me"
+  },
+  "license": "MIT"
+}
