@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  padding: 2em 0;
+  align-items: center;
+}
+
+.header.header--column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header.header--row {
+  flex-direction: row;
+  justify-content: space-between;
+}
