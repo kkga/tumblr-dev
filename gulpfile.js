@@ -12,9 +12,9 @@ gulp.task('styles', function() {
 		.pipe(gulp.dest(destCSS));
 });
 
-gulp.task('clean', function(cb) {
-	del([destCSS, 'dist/assets/js', 'dist/assets/img'], cb)
-});
+// gulp.task('clean', function(cb) {
+// 	del([destCSS, 'dist/assets/js', 'dist/assets/img'], cb)
+// });
 
 
 gulp.task('default', ['clean'], function() {
@@ -22,6 +22,6 @@ gulp.task('default', ['clean'], function() {
 });
 
 
-gulp.task('watch', function() {
+gulp.task('watch', ['styles'], function() {
 	gulp.watch('src/styles/**/*.scss', ['styles']);
 });
